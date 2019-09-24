@@ -1,0 +1,21 @@
+Sep 24, 2019 1:13:32 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'F:\android projects\Build-It-Bigger\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+2019-09-24 13:13:32.843:INFO::main: Logging initialized @4338ms to org.eclipse.jetty.util.log.StdErrLog
+2019-09-24 13:13:32.972:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Sep 24, 2019 11:13:34 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (F:\android projects\Build-It-Bigger\backend) is not equal to your 
+web application root (F:\android projects\Build-It-Bigger\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2019-09-24 13:13:34.476:INFO:oejs.Server:main: jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_152-release-1343-b01
+2019-09-24 13:13:36.957:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@5c80cf32{/,file:///F:/android%20projects/Build-It-Bigger/backend/build/exploded-backend/,AVAILABLE}{F:\android projects\Build-It-Bigger\backend\build\exploded-backend}
+2019-09-24 13:13:36.958:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2019-09-24 13:13:36.958:INFO:oejs.session:main: node0 Scavenging disabled
+2019-09-24 13:13:36.976:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@57536d79{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2019-09-24 13:13:36.978:INFO:oejs.Server:main: Started @8472ms
+Sep 24, 2019 11:13:36 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Sep 24, 2019 11:13:36 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Sep 24, 2019 1:13:36 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
