@@ -15,14 +15,8 @@ public class EndpointsAsyncTaskTest {
 
     @Test
     public void testDoInBackground() throws Exception {
-        com.udacity.gradle.builditbigger.MainActivityFragment fragment = new com.udacity.gradle.builditbigger.MainActivityFragment();
-        Thread.sleep(5000);
 
-        new EndpointsAsyncTask(){
-            @Override
-            protected void onPostExecute(String result) {
-                assertNotNull(result);
-            }
-        }.execute();
+        String joke =new EndpointsAsyncTask().execute( ).get();
+        assertNotNull(joke);
     }
 }

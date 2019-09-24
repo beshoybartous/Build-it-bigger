@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/androidjokesproviderlibrary/AndroidJokesProviderLibrary.iml" filepath="$PROJECT_DIR$/androidjokesproviderlibrary/AndroidJokesProviderLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidJokesProviderLibrary/AndroidJokesProviderLibrary.iml" filepath="$PROJECT_DIR$/AndroidJokesProviderLibrary/AndroidJokesProviderLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Build-It-Bigger.iml" filepath="$PROJECT_DIR$/Build-It-Bigger.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaJokesProviderLibrary/JavaJokesProviderLibrary.iml" filepath="$PROJECT_DIR$/JavaJokesProviderLibrary/JavaJokesProviderLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
